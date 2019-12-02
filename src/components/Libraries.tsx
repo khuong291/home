@@ -2,41 +2,37 @@ import * as React from "react";
 import styled from "styled-components";
 import * as Colors from "../constants/colors";
 
-class Libraries extends React.Component {
-  public render() {
-    return (
-      <Container>
-        <ul style={{ textAlign: "left" }}>
-          <li>
-            <LibraryLink href="https://github.com/khuong291/react-notification">
-              React Notification (ReactJS)
-            </LibraryLink>
-          </li>
-          <li>
-            <LibraryLink href="https://github.com/khuong291/MagicPresent">
-              Magic Present (iOS)
-            </LibraryLink>
-          </li>
-          <li>
-            <LibraryLink href="https://github.com/khuong291/KPActionSheet">
-              KPActionSheet (iOS)
-            </LibraryLink>
-          </li>
-          <li>
-            <LibraryLink href="https://github.com/khuong291/KPImageView">
-              KPImageView (iOS)
-            </LibraryLink>
-          </li>
-          <li>
-            <LibraryLink href="https://github.com/khuong291/Binder">
-              Binder (iOS)
-            </LibraryLink>
-          </li>
-        </ul>
-      </Container>
-    );
-  }
-}
+const Libraries = () => (
+  <Container>
+    <ul style={{ textAlign: "left" }}>
+      <li>
+        <LibraryLink href="https://github.com/khuong291/react-notification">
+          React Notification (ReactJS)
+        </LibraryLink>
+      </li>
+      <li>
+        <LibraryLink href="https://github.com/khuong291/MagicPresent">
+          Magic Present (iOS)
+        </LibraryLink>
+      </li>
+      <li>
+        <LibraryLink href="https://github.com/khuong291/KPActionSheet">
+          KPActionSheet (iOS)
+        </LibraryLink>
+      </li>
+      <li>
+        <LibraryLink href="https://github.com/khuong291/KPImageView">
+          KPImageView (iOS)
+        </LibraryLink>
+      </li>
+      <li>
+        <LibraryLink href="https://github.com/khuong291/Binder">
+          Binder (iOS)
+        </LibraryLink>
+      </li>
+    </ul>
+  </Container>
+);
 
 const Container = styled.div`
   display: flex;

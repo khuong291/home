@@ -2,34 +2,32 @@ import * as React from "react";
 import styled from "styled-components";
 import * as Colors from "../constants/colors";
 
-class PersonalProjects extends React.Component {
-  public render() {
-    return (
-      <Container>
-        <ProjectDiv>
-          <img height="42" src="guessit.jpg" />
-          <Title>Guess It - Word Picture Puzzle</Title>
-        </ProjectDiv>
-        <ProjectDiv>
-          <img height="42" src="giothanhle.jpg" />
-          <Title>GioThanhle</Title>
-        </ProjectDiv>
-        <ProjectDiv>
-          <img height="42" src="guessfootballer.jpg" />
-          <Title>Guess The Footballer</Title>
-        </ProjectDiv>
-        <ProjectDiv>
-          <img height="42" src="ease.jpg" />
-          <Title>Ease</Title>
-        </ProjectDiv>
-        <ProjectDiv>
-          <img height="42" src="mathduelfight.jpg" />
-          <Title>Math Duel Fight</Title>
-        </ProjectDiv>
-      </Container>
-    );
-  }
-}
+const PersonalProjects = () => (
+  <Container>
+    <ProjectDiv>
+      <img height="42" src="pettrend.png" />
+      <Title href="http://pettrend.vn">PetTrend (Swift)</Title>
+    </ProjectDiv>
+    <ProjectDiv>
+      <img height="42" src="reactjs.png" />
+      <Title href="https://khuong291.github.io/MovieHD">
+        MovieHD (ReactJS + NodeJS)
+      </Title>
+    </ProjectDiv>
+    <ProjectDiv>
+      <img height="42" src="guessit.jpg" />
+      <Title href="https://apps.apple.com/us/app/guess-it-word-picture-puzzle/id1257126099">
+        Guess It - Word Picture Puzzle (Swift + Firebase)
+      </Title>
+    </ProjectDiv>
+    <ProjectDiv>
+      <img height="42" src="giothanhle.jpg" />
+      <Title href="https://apps.apple.com/us/app/giothanhle/id858577738">
+        GioThanhle (Swift + NodeJS)
+      </Title>
+    </ProjectDiv>
+  </Container>
+);
 
 const Container = styled.div`
   display: flex;
@@ -41,7 +39,7 @@ const Container = styled.div`
   margin-top: 20px;
 `;
 
-const Title = styled.h1`
+const Title = styled.a`
   @media (max-width: 425px) {
     font-size: 10px;
     margin-top: 15px;
@@ -57,6 +55,7 @@ const Title = styled.h1`
 const ProjectDiv = styled.div`
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 `;
 
 export default PersonalProjects;

@@ -13,7 +13,6 @@
   "editor.formatOnSave": true,
   "javascript.validate.enable": false,
   "javascript.format.enable": false,
-  "prettier.eslintIntegration": true,
   "prettier.singleQuote": false,
   "prettier.trailingComma": "es5",
   "prettier.printWidth": 80,

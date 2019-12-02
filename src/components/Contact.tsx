@@ -3,26 +3,22 @@ import { Icon } from "react-fa";
 import styled from "styled-components";
 import * as Colors from "../constants/colors";
 
-class Contact extends React.Component {
-  public render() {
-    return (
-      <Container>
-        <ContactDiv>
-          <ContactIcon name="far fa-map-marker" />
-          <LocationLabel>HCMC, VietNam</LocationLabel>
-        </ContactDiv>
-        <ContactDiv>
-          <ContactIcon name="fal fa-envelope" />
-          <LocationLabel>
-            <a style={{ color: "#686464" }} href="dkhuong291@gmail.com">
-              dkhuong291@gmail.com
-            </a>
-          </LocationLabel>
-        </ContactDiv>
-      </Container>
-    );
-  }
-}
+const Contact = () => (
+  <Container>
+    <ContactDiv>
+      <ContactIcon name="far fa-map-marker" />
+      <LocationLabel>HCMC, VietNam</LocationLabel>
+    </ContactDiv>
+    <ContactDiv>
+      <ContactIcon name="fal fa-envelope" />
+      <LocationLabel>
+        <a style={{ color: "#686464" }} href="dkhuong291@gmail.com">
+          dkhuong291@gmail.com
+        </a>
+      </LocationLabel>
+    </ContactDiv>
+  </Container>
+);
 
 const Container = styled.div`
   @media (max-width: 768px) {
