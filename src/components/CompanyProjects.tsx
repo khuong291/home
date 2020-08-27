@@ -5,6 +5,12 @@ import * as Colors from "../constants/colors";
 const CompanyProjectsContainer = () => (
   <Container>
     <ProjectDiv>
+      <img height="42" src="singaporegp.png" />
+      <Title href="https://apps.apple.com/sg/app/singapore-gp/id518276170">
+        SingaporeGP (Swift)
+      </Title>
+    </ProjectDiv>
+    <ProjectDiv>
       <img height="42" src="mbccs.png" />
       <Title href="https://apps.apple.com/us/app/marina-bay-cruise-centre/id1457518741">
         Marina Bay Cruise Center Singapore (Swift)

@@ -8,15 +8,11 @@ const HeaderContainer = () => (
     <Avatar src="https://avatars2.githubusercontent.com/u/11523438?s=460&v=4" />
     <InfoBox>
       <NameLabel>Kenny Pham</NameLabel>
-      <JobLabel>Software Engineer</JobLabel>
+      <JobLabel>Senior Software Engineer</JobLabel>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <LinkButton
           link="https://github.com/khuong291"
           imageName="fab fa-github"
-        />
-        <LinkButton
-          link="https://twitter.com/khuong291"
-          imageName="fab fa-twitter"
         />
         <LinkButton
           link="https://medium.com/@dkhuong291"
@@ -25,10 +21,6 @@ const HeaderContainer = () => (
         <LinkButton
           link="https://stackoverflow.com/users/4742830/khuong"
           imageName="fab fa-stack-overflow"
-        />
-        <LinkButton
-          link="https://www.facebook.com/profile.php?id=100003211267207"
-          imageName="fab fa-facebook"
         />
         <LinkButton
           link="https://www.linkedin.com/in/khuong-pham-kenny-7b1635108"

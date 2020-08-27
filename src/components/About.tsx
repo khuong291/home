@@ -6,12 +6,12 @@ const AboutContainer = () => (
   <Container>
     <Title>About Me</Title>
     <Description>
-      Hello 👋. I'm Kenny and I'm a software engineer who can work well on web
-      and mobile applications. I have been developing professionally for 5
-      years. I have a deep understanding of many technical subjects. I can
-      contribute many things from different roles like backend, frontend or
-      mobile. Courteous and enthusiastic, I am interested in IT and everything
-      in its orbit.
+      Hi there! I'm a senior frontend developer working on web and mobile
+      applications. I have been developing professionally for 5 years. I have a
+      deep understanding of many technical subjects. and can take down many
+      roles from mobile development or backend to frontend development.
+      Courteous and enthusiastic, I am interested in IT and everything in its
+      orbit.
     </Description>
   </Container>
 );
