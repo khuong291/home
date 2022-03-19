@@ -2,7 +2,7 @@
   "private": true,
   "name": "personalPortfolio",
   "homepage": "http://khuong291.github.io/home",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -24,7 +24,6 @@
     "react-bootstrap": "^1.4.3",
     "react-cursor-custom": "^1.2.4",
     "react-dom": "^16.8.0",
-    "react-ga": "^3.3.0",
     "react-icons": "^4.2.0",
     "react-is": "^17.0.1",
     "react-reveal": "^1.2.2",

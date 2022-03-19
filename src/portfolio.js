@@ -12,7 +12,7 @@ const greeting = {
   title2: "Kenny",
   logo_name: "😎",
   nickname: "harry / picleric",
-  full_name: "Kenny Pham",
+  full_name: "Kenny",
   subTitle:
     "Senior iOS & MacOS Developer 🧑🏻‍💻, product builder ✨. Always learning 🔥",
   resumeLink:
