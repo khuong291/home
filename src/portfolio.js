@@ -102,6 +102,19 @@ const projects = {
         }
       ],
     },
+    {
+      id: "3",
+      name: "Breather - Break Reminder",
+      url: "https://apps.apple.com/us/app/breather-break-reminder/id1629226439",
+      description:
+        "Remind break for a period of time",
+      languages: [
+        {
+          name: "Swift",
+          iconifyClass: "logos-swift",
+        }
+      ],
+    }
   ],
 };
 
